@@ -1,11 +1,6 @@
 @font-face {
     font-family: 'Neue Machina Medium';
-    src: url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2'),
-         url('/src/assets/fonts/NeueMachina-Medium.woff') format('woff'),
-         url('/src/assets/fonts/NeueMachina-Medium.ttf') format('truetype'),
-         url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2'),
-         url('/src/assets/fonts/NeueMachina-Medium.woff') format('woff'),
-         url('/src/assets/fonts/NeueMachina-light .ttf') format('truetype');
+    src: url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
   }
