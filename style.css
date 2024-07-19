@@ -1,9 +1,7 @@
 @font-face {
-    font-family: 'NMM';
-    src: url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+    font-family: "NMM";
+    src: url(./src/assets/fonts/NeueMachina-Medium.woff2);
+}
 body {
     overflow-x: hidden;
     transition: background-color ease-out.5s;
