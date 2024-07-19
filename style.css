@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Neue Machina Medium';
+    src: url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2'),
+         url('/src/assets/fonts/NeueMachina-Medium.woff') format('woff'),
+         url('/src/assets/fonts/NeueMachina-Medium.ttf') format('truetype'),
+         url('/src/assets/fonts/NeueMachina-Medium.woff2') format('woff2'),
+         url('/src/assets/fonts/NeueMachina-Medium.woff') format('woff'),
+         url('/src/assets/fonts/NeueMachina-light .ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    overflow-x: hidden;
+    transition: background-color ease-out.5s;
+}
+:root{
+    --black: #000;
+    --white:#fff;
+    --cyan: #111c34;
+    --dcyan: #ffffff;
+    --salmon:#ebe9df;
+    --dsalmon: rgb(50, 39, 39)}
+
+.image{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+*::selection{
+    background-color: var(--salmon)
+}
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+    color:var(--white);
+}   
+
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+body[theme="cyan"] .section{
+    color: var(--dcyan);
+}
+
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+body[theme="salmon"] .section{
+    color: var(--dsalmon);
+}
+
+body[theme="white"]{
+    background-color:var(--white);
+}
+body[theme="white"] .section{
+    color: var(--black);
+}
