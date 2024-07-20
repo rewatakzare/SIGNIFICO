@@ -1,5 +1,6 @@
 # Significo
 Welcome to Significo! This project showcases an innovative approach to web design, utilizing modern web technologies to create a visually appealing and interactive user experience. Built with HTML5, CSS3, JavaScript, GSAP, Locomotive Scroll v5, and Tailwind CSS, Significo demonstrates the power of these tools in creating dynamic and engaging web pages.
+For visual expirence- https://rewatakzare.github.io/SIGNIFICO/
 # Table of Contents
 -Overview  
 -Features   
